@@ -127,9 +127,10 @@ const LocationSelector = () => {
       </div>
 
       {/* Display Selected Location */}
+      {/* sn */}
       {selectedCountry && selectedState && selectedCity && (
         <div>
-          <h3>You Selected {selectedCity}, {selectedState}, {selectedCountry}</h3>
+          <h3>You selected {selectedCity}, {selectedState}, {selectedCountry}</h3>
         </div>
       )}
       {error && <p style={{ color: "red" }}>{error}</p>}
